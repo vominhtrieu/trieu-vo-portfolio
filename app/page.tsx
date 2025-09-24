@@ -287,7 +287,7 @@ export default function Portfolio() {
                 <a href="https://github.com/vominhtrieu" target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
                   <Button
                     variant="outline"
-                    className="w-full justify-start hover:bg-primary/10 hover:border-primary/50 bg-transparent"
+                    className="w-full justify-start gap-3 hover:bg-primary/10 hover:border-primary/50 bg-transparent"
                   >
                     <Github className="w-4 h-4" />
                     GitHub
