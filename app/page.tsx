@@ -26,10 +26,13 @@ export default function Portfolio() {
               <img className="w-32 h-32 text-primary-foreground" src="/avatar.jpg" alt="Trieu Vo" />
             </div>
           </div>
-          <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+          <h1 className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             Trieu Vo
           </h1>
           <p className="text-xl text-muted-foreground mb-2">Full Stack Software Engineer</p>
+          <div>
+          <img className="w-12 mx-auto mb-4 mt-2 mystical-glow bg-transparent rounded-sm" src="/vietnam-flag.svg" alt="Vietnam Flag" />
+          </div>
           <p className="text-lg text-foreground/80 max-w-2xl mx-auto leading-relaxed">
             A full-stack engineer specializing in building scalable web applications and engaging user experiences.
             Specializing in Javascript, Ruby on Rails, and React.
