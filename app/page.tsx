@@ -23,7 +23,7 @@ export default function Portfolio() {
         <header className="text-center mb-16">
           <div className="relative inline-block">
             <div className="overflow-hidden w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-accent mystical-glow flex items-center justify-center">
-              <img className="w-32 h-32 text-primary-foreground" src="/avatar.jpg" />
+              <img className="w-32 h-32 text-primary-foreground" src="/avatar.jpg" alt="Trieu Vo" />
             </div>
           </div>
           <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
