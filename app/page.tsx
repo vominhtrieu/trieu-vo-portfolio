@@ -173,7 +173,6 @@ export default function Portfolio() {
                     <Badge className="bg-accent/20 text-accent border-accent/30">Qor</Badge>
                     <Badge className="bg-accent/20 text-accent border-accent/30">Gin</Badge>
                     <Badge className="bg-accent/20 text-accent border-accent/30">Restify</Badge>
-                    <Badge className="bg-accent/20 text-accent border-accent/30">Gin</Badge>
                     <Badge className="bg-primary/20 text-primary border-primary/30">Angular.Js</Badge>
                     <Badge className="bg-primary/20 text-primary border-primary/30">Javascript</Badge>
                     <Badge className="bg-primary/20 text-primary border-primary/30">Material UI</Badge>
