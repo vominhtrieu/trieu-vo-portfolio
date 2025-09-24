@@ -187,6 +187,10 @@ export default function Portfolio() {
                 <Star className="w-6 h-6 text-primary" />
                 <h2 className="text-2xl font-bold text-foreground">PET Projects</h2>
               </div>
+              <p className="text-foreground/80 font-medium mb-2">
+                Outside of work, I channel my passion for technology into personal projects that allow me to experiment with new ideas and technologies.
+                Especially in game development, where I can combine my love for coding and creativity to build engaging experiences.
+              </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="group p-6 bg-secondary/50 rounded-lg border border-border/50 hover:border-primary/50 transition-all duration-300">
                   <div className="flex items-center justify-between mb-3">
@@ -196,7 +200,7 @@ export default function Portfolio() {
                     </a>
                   </div>
                   <p className="text-foreground/80 text-sm mb-4 leading-relaxed">
-                    A simple game app that challenges users to guess famous quotes. Built with React Native and Firebase.
+                    A simple game that challenges users to guess famous quotes. Built with React Native and Firebase.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <Badge className="bg-primary/20 text-primary border-primary/30">
