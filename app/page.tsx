@@ -317,8 +317,8 @@ export default function Portfolio() {
             {/* Status Card */}
             <Card className="p-6 bg-gradient-to-br from-primary/10 to-accent/10 border-primary/20">
               <div className="flex items-center gap-3">
-                <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                <p className="text-sm font-medium text-foreground">I'm not currently looking for work</p>
+                <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
+                <p className="text-sm font-medium text-foreground">I'm not currently open to work</p>
               </div>
             </Card>
           </div>
