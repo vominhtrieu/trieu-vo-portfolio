@@ -22,17 +22,15 @@ export default function Portfolio() {
         {/* Header Section */}
         <header className="text-center mb-16">
           <div className="relative inline-block">
-            <div className="overflow-hidden w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-accent mystical-glow flex items-center justify-center">
-              <img className="w-32 h-32 text-primary-foreground" src="/avatar.jpg" alt="Trieu Vo" />
+            <div className="overflow-hidden w-48 h-48 border-3 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-accent mystical-glow flex items-center justify-center">
+              <img className="w-48 h-48 text-primary-foreground" src="/avatar.jpg" alt="Trieu Vo" />
+              <img className="absolute right-[-8px] bottom-8 border-3 shadow-2xl w-16 mx-auto mystical-glow bg-transparent rounded-sm" src="/vietnam-flag.svg" alt="Vietnam Flag" />
             </div>
           </div>
           <h1 className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             Trieu Vo
           </h1>
           <p className="text-xl text-muted-foreground mb-2">Full Stack Software Engineer</p>
-          <div>
-          <img className="w-12 mx-auto mb-4 mt-2 mystical-glow bg-transparent rounded-sm" src="/vietnam-flag.svg" alt="Vietnam Flag" />
-          </div>
           <p className="text-lg text-foreground/80 max-w-2xl mx-auto leading-relaxed">
             A full-stack engineer specializing in building scalable web applications and engaging user experiences.
             Specializing in Javascript, Ruby on Rails, and React.

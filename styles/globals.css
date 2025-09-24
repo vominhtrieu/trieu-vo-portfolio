@@ -3,6 +3,12 @@
 
 @custom-variant dark (&:is(.dark *));
 
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--ring) var(--background);
+  
+}
+
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
