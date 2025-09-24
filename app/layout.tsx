@@ -47,14 +47,14 @@ export default function RootLayout({
         {/* Facebook Open Graph & Google meta tags for SEO */}
         <meta property="og:title" content="Trieu Vo - Software Engineer" />
         <meta property="og:description" content="I am a dedicated and passionate software engineer with 4 years of experience in web development." />
-        <meta property="og:image" content="https://trieuvo.com/avatar.jpg" />
+        <meta property="og:image" content="/avatar.jpg" />
         <meta property="og:url" content="https://trieuvo.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Trieu Vo Portfolio" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Trieu Vo - Software Engineer" />
         <meta name="twitter:description" content="I am a dedicated and passionate software engineer with 4 years of experience in web development." />
-        <meta name="twitter:image" content="https://trieuvo.com/avatar.jpg" />
+        <meta name="twitter:image" content="/avatar.jpg" />
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {children}
