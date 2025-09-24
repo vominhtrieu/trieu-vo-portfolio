@@ -5,7 +5,7 @@ import { Github, Linkedin, Mail, ExternalLink, Star, Zap, Info } from "lucide-re
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-background relative overflow-hidden">
+    <div className="min-h-screen max-w-[1200px] mx-auto bg-background relative overflow-hidden">
       {/* Mystical background elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-card opacity-50" />
       <div className="absolute top-20 left-10 w-32 h-32 bg-primary/10 rounded-full blur-3xl float-animation" />
