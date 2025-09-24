@@ -24,7 +24,7 @@ export default function Portfolio() {
           <div className="relative inline-block">
             <div className="overflow-hidden w-48 h-48 border-3 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-accent mystical-glow flex items-center justify-center">
               <img className="w-48 h-48 text-primary-foreground" src="/avatar.jpg" alt="Trieu Vo" />
-              <img className="absolute right-[-8px] bottom-8 border-3 shadow-2xl w-16 mx-auto mystical-glow bg-transparent rounded-[7px]" src="/vietnam-flag.svg" alt="Vietnam Flag" />
+              <img className="absolute right-[-8px] bottom-8 border-3 shadow-2xl w-16 mx-auto bg-transparent rounded-[7px]" src="/vietnam-flag.svg" alt="Vietnam Flag" />
             </div>
           </div>
           <h1 className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
