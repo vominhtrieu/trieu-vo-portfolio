@@ -148,7 +148,7 @@ export default function Portfolio() {
                 </div>
 
                 <div className="border-l-2 border-primary/30 pl-6 relative">
-                  <div className="absolute -left-2 top-0 w-4 h-4 bg-accent rounded-full"></div>
+                  <div className="absolute -left-2 top-0 w-4 h-4 bg-destructive rounded-full"></div>
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
                     <h3 className="text-lg font-semibold text-foreground">Backend Engineer</h3>
                     <span className="text-sm text-muted-foreground">2021 — 2022</span>
