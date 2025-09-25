@@ -22,18 +22,18 @@ export default function Portfolio() {
         {/* Header Section */}
         <header className="text-center mb-16">
           <div className="relative inline-block">
-            <div className="overflow-hidden w-48 h-48 border-3 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-accent mystical-glow flex items-center justify-center">
+            <div className="overflow-hidden w-48 h-48 border-3 mx-auto rounded-full bg-gradient-to-br from-primary to-accent mystical-glow flex items-center justify-center">
               <img className="w-48 h-48 text-primary-foreground" src="/avatar.jpg" alt="Trieu Vo" />
-              <img className="absolute right-[-8px] bottom-8 border-3 border-box shadow-2xl mx-auto bg-transparent rounded-[7px]" style={{
-                width: "64px",
-                height: "48px",
+              <img className="absolute right-[4px] bottom-[4px] border-3 border-box shadow-2xl mx-auto bg-transparent rounded-[50%]" style={{
+                width: "56px",
+                height: "56px",
                 boxSizing: "border-box",
                 objectFit: "cover",
                 objectPosition: "center center",
               }} src="/vietnam-flag.svg" alt="Vietnam Flag" />
             </div>
           </div>
-          <h1 className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+          <h1 className="text-5xl mt-6 font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             Trieu Vo
           </h1>
           <p className="text-xl text-muted-foreground mb-2">Full Stack Software Engineer</p>
@@ -122,6 +122,7 @@ export default function Portfolio() {
                     <Badge variant="outline">MixPanel</Badge>
                     <Badge variant="outline">Periscope</Badge>
                     <Badge variant="outline">AWS</Badge>
+                    <Badge variant="outline">Sentry</Badge>
                   </div>
                 </div>
 
@@ -207,7 +208,7 @@ export default function Portfolio() {
                     </a>
                   </div>
                   <p className="text-foreground/80 text-sm mb-4 leading-relaxed">
-                    A simple game that challenges users to guess famous quotes. Built with React Native and Firebase.
+                    A simple game that challenges players to guess famous quotes. Built with React Native and Firebase.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <Badge className="bg-primary/20 text-primary border-primary/30">
@@ -275,6 +276,10 @@ export default function Portfolio() {
                     <Badge variant="outline">AWS</Badge>
                     <Badge variant="outline">Docker</Badge>
                     <Badge variant="outline">Git</Badge>
+                    <Badge variant="outline">Datadog</Badge>
+                    <Badge variant="outline">Periscope</Badge>
+                    <Badge variant="outline">Mixpanel</Badge>
+                    <Badge variant="outline">Sentry</Badge>
                   </div>
                 </div>
               </div>
