@@ -22,11 +22,11 @@ export default function Portfolio() {
         {/* Header Section */}
         <header className="text-center mb-16">
           <div className="relative inline-block">
-            <div className="overflow-hidden w-48 h-48 border-3 mx-auto rounded-full bg-gradient-to-br from-primary to-accent mystical-glow flex items-center justify-center">
-              <img className="w-48 h-48 text-primary-foreground" src="/avatar.jpg" alt="Trieu Vo" />
-              <img className="absolute right-[4px] bottom-[4px] border-3 border-box shadow-2xl mx-auto bg-transparent rounded-[50%]" style={{
-                width: "56px",
-                height: "56px",
+            <div className="overflow-hidden w-42 h-42 border-3 mx-auto rounded-full bg-gradient-to-br from-primary to-accent mystical-glow flex items-center justify-center">
+              <img className="w-42 h-42 text-primary-foreground" src="/avatar.jpg" alt="Trieu Vo" />
+              <img className="mystical-glow absolute right-[4px] bottom-[4px] border-3 border-box shadow-2xl mx-auto bg-transparent rounded-[50%]" style={{
+                width: "48px",
+                height: "48px",
                 boxSizing: "border-box",
                 objectFit: "cover",
                 objectPosition: "center center",
@@ -117,6 +117,7 @@ export default function Portfolio() {
                     <Badge className="bg-accent/20 text-accent border-accent/30">Node.Js</Badge>
                     <Badge className="bg-primary/20 text-primary border-primary/30">React.Js</Badge>
                     <Badge className="bg-primary/20 text-primary border-primary/30">Javascript</Badge>
+                    <Badge className="bg-accent/20 text-accent border-accent/30">PostgresSQL</Badge>
                     <Badge className="bg-accent/20 text-accent border-accent/30">SQL</Badge>
                     <Badge variant="outline">DataDog</Badge>
                     <Badge variant="outline">MixPanel</Badge>
@@ -252,10 +253,11 @@ export default function Portfolio() {
                 <div>
                   <p className="text-sm font-medium text-foreground mb-2">Frontend</p>
                   <div className="flex flex-wrap gap-2">
-                    <Badge className="bg-accent/20 text-accent border-accent/30">React</Badge>
+                    <Badge className="bg-accent/20 text-accent border-accent/30">React.Js</Badge>
                     <Badge className="bg-accent/20 text-accent border-accent/30">TypeScript</Badge>
-                    <Badge className="bg-accent/20 text-accent border-accent/30">Next.js</Badge>
+                    <Badge className="bg-accent/20 text-accent border-accent/30">Next.Js</Badge>
                     <Badge className="bg-accent/20 text-accent border-accent/30">Tailwind</Badge>
+                    <Badge className="bg-accent/20 text-accent border-accent/30">React Native</Badge>
                   </div>
                 </div>
                 <div>
@@ -268,6 +270,7 @@ export default function Portfolio() {
                     <Badge className="bg-primary/20 text-primary border-primary/30">Nest.Js</Badge>
                     <Badge className="bg-primary/20 text-primary border-primary/30">PostgreSQL</Badge>
                     <Badge className="bg-primary/20 text-primary border-primary/30">GraphQL</Badge>
+                    <Badge className="bg-primary/20 text-primary border-primary/30">Firebase</Badge>
                   </div>
                 </div>
                 <div>
