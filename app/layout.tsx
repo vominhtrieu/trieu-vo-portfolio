@@ -55,6 +55,24 @@ export default function RootLayout({
         <meta name="twitter:title" content="Trieu Vo - Software Engineer" />
         <meta name="twitter:description" content="I am a dedicated and passionate software engineer with 4 years of experience in web development." />
         <meta name="twitter:image" content="/avatar.jpg" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Trieu Vo",
+              "url": "https://trieuvo.com",
+              "image": "https://trieuvo.com/profile.jpg",
+              "sameAs": [
+                "https://www.linkedin.com/in/vominhtrieu/",
+                "https://www.facebook.com/trieu.vm",
+                "https://github.com/vominhtrieu",
+              ],
+              "jobTitle": "Software Engineer"
+            }`
+          }}
+        />
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {children}
