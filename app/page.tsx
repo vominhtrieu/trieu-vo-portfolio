@@ -246,6 +246,21 @@ export default function Portfolio() {
 
           {/* Sidebar */}
           <div className="space-y-6">
+            {/* Education Card */}
+            <Card className="p-6 bg-card/80 backdrop-blur-sm">
+              <h3 className="text-lg font-semibold text-foreground">Education</h3>
+              <div className="space-y-2">
+                <div>
+                  <p className="text-sm font-medium text-foreground">Bachelor of Software Engineering</p>
+                  <p className="text-sm text-muted-foreground">University of Science, VNU-HCM (2018 - 2022)</p>
+
+                  <p className="text-sm text-foreground/80 mt-2">
+                    <b>Cumulative GPA:</b> 8.34/10.0
+                  </p>
+                </div>
+              </div>
+            </Card>
+
             {/* Skills Card */}
             <Card className="p-6 bg-card/80 backdrop-blur-sm">
               <h3 className="text-lg font-semibold text-foreground">Technical Skills</h3>
