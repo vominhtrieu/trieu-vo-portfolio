@@ -58,19 +58,20 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `{
-              "@context": "https://schema.org",
-              "@type": "Person",
-              "name": "Trieu Vo",
-              "url": "https://trieuvo.com",
-              "image": "https://trieuvo.com/profile.jpg",
-              "sameAs": [
-                "https://www.linkedin.com/in/vominhtrieu/",
-                "https://www.facebook.com/trieu.vm",
-                "https://github.com/vominhtrieu",
-              ],
-              "jobTitle": "Software Engineer"
-            }`
+            __html:
+              `{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Trieu Vo",
+  "url": "https://trieuvo.com",
+  "image": "https://trieuvo.com/profile.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/vominhtrieu/",
+    "https://www.facebook.com/trieu.vm",
+    "https://github.com/vominhtrieu",
+  ],
+  "jobTitle": "Software Engineer"
+}`
           }}
         />
       </head>
