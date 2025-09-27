@@ -26,7 +26,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Trieu Vo - Software Engineer",
     description: "I am a dedicated and passionate software engineer with 4 years of experience in web development.",
-    site: "@yourtwitterhandle",
     images: ["https://trieuvo.com/avatar.jpg"]
   },
   keywords: ["Trieu Vo", "Triều Võ", "Software Engineer", "Web Developer", "Portfolio", "JavaScript", "TypeScript", "React", "Node.js", "Next.js", "Frontend Developer", "Backend Developer", "Fullstack Developer", "Programming", "Coding", "Tech Enthusiast"],
