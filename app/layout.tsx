@@ -65,7 +65,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "sameAs": [
     "https://www.linkedin.com/in/vominhtrieu/",
     "https://www.facebook.com/trieu.vm",
-    "https://github.com/vominhtrieu",
+    "https://github.com/vominhtrieu"
   ],
   "jobTitle": "Software Engineer"
 }`
