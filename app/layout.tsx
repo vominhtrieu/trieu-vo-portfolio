@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Trieu Vo - Software Engineer",
     description: "I am a dedicated and passionate software engineer with 4 years of experience in web development.",
-    url: "https://your-domain.com/",
+    url: "https://trieuvo.com/",
     siteName: "Trieu Vo Portfolio",
     images: [
       {
-        url: "/public/placeholder-user.jpg",
-        width: 800,
-        height: 600,
+        url: "https://trieuvo.com/avatar.jpg",
+        width: 500,
+        height: 500,
         alt: "Trieu Vo Portfolio"
       }
     ],
@@ -27,11 +27,15 @@ export const metadata: Metadata = {
     title: "Trieu Vo - Software Engineer",
     description: "I am a dedicated and passionate software engineer with 4 years of experience in web development.",
     site: "@yourtwitterhandle",
-    images: ["/public/placeholder-user.jpg"]
+    images: ["https://trieuvo.com/avatar.jpg"]
   },
+  keywords: ["Trieu Vo", "Triều Võ", "Software Engineer", "Web Developer", "Portfolio", "JavaScript", "TypeScript", "React", "Node.js", "Next.js", "Frontend Developer", "Backend Developer", "Fullstack Developer", "Programming", "Coding", "Tech Enthusiast"],
+  authors: [{ name: "Trieu Vo", url: "https://trieuvo.com" }],
+  creator: "Trieu Vo",
+  publisher: "Trieu Vo",
   other: {
     // Google Search meta tags
-    "google-site-verification": "your-google-site-verification-code"
+    // "google-site-verification": "your-google-site-verification-code"
   }
 };
 
@@ -49,17 +53,6 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-T79LSQ98');` }} />
-        {/* Facebook Open Graph & Google meta tags for SEO */}
-        <meta property="og:title" content="Trieu Vo - Software Engineer" />
-        <meta property="og:description" content="I am a dedicated and passionate software engineer with 4 years of experience in web development." />
-        <meta property="og:image" content="/avatar.jpg" />
-        <meta property="og:url" content="https://trieuvo.com/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Trieu Vo Portfolio" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Trieu Vo - Software Engineer" />
-        <meta name="twitter:description" content="I am a dedicated and passionate software engineer with 4 years of experience in web development." />
-        <meta name="twitter:image" content="/avatar.jpg" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
