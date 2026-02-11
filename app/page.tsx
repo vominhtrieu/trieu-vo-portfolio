@@ -68,8 +68,14 @@ export default function Portfolio() {
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-8">
-            <div className="group p-6 bg-secondary/50 rounded-lg border border-border/50 hover:border-primary/50 transition-all duration-300 md:col-span-2">
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4 w-full">
+            <Card className="group p-6 bg-secondary/50 rounded-lg border border-border/50 hover:border-primary/50 transition-all duration-300 gap-0">
+              <div className="flex items-center gap-3 mb-2">
+                <Star className="w-6 h-6 text-primary" />
+                <h2 className="text-2xl font-bold text-foreground">
+                  Featured Project
+                </h2>
+              </div>
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 my-4 w-full">
                 <div className="flex items-center gap-4">
                   <div className="relative">
                     <Image
@@ -95,11 +101,11 @@ export default function Portfolio() {
                     href="https://apps.apple.com/vn/app/spendbee-expense-tracker/id6755102613"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="cursor-pointer"
+                    className="cursor-pointer w-full md:w-[150px]"
                   >
                     <Button
                       variant="outline"
-                      className="gap-2 cursor-pointer w-[150px]"
+                      className="gap-2 cursor-pointer w-full md:w-[150px]"
                     >
                       <ExternalLink className="w-4 h-4" />
                       App Store
@@ -109,11 +115,11 @@ export default function Portfolio() {
                     href="https://play.google.com/store/apps/details?id=com.trieuvo.spendbee"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="cursor-pointer"
+                    className="cursor-pointer w-full md:w-[150px]"
                   >
                     <Button
                       variant="outline"
-                      className="gap-2 cursor-pointer w-[150px]"
+                      className="gap-2 cursor-pointer w-full md:w-[150px]"
                     >
                       <ExternalLink className="w-4 h-4" />
                       Google Play
@@ -121,7 +127,7 @@ export default function Portfolio() {
                   </a>
                 </div>
               </div>
-              <p className="text-foreground/80 text-sm leading-relaxed">
+              <p className="text-foreground/80 text-md leading-relaxed mb-4">
                 SpendBee is a smart personal finance companion that helps users
                 easily track daily expenses and income, manage multiple wallets
                 and debts, and understand their spending habits with clear
@@ -137,13 +143,13 @@ export default function Portfolio() {
               >
                 <Button
                   variant="outline"
-                  className="gap-2 cursor-pointer mt-2"
+                  className="gap-2 cursor-pointer w-full md:w-[250px]"
                 >
                   <ExternalLink className="w-4 h-4" />
                   Contact for collaboration
                 </Button>
               </a>
-            </div>
+            </Card>
             {/* About Section */}
             <Card className="p-8 ornate-border bg-card/80 backdrop-blur-sm">
               <div className="flex items-center gap-3">
@@ -429,7 +435,7 @@ export default function Portfolio() {
                       >
                         <Button
                           variant="outline"
-                          className="gap-2 cursor-pointer w-[150px]"
+                          className="gap-2 cursor-pointer w-full md:w-[150px]"
                         >
                           <ExternalLink className="w-4 h-4" />
                           App Store
@@ -439,11 +445,11 @@ export default function Portfolio() {
                         href="https://play.google.com/store/apps/details?id=com.trieuvo.spendbee"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="cursor-pointer"
+                        className="cursor-pointer w-full md:w-[150px]"
                       >
                         <Button
                           variant="outline"
-                          className="gap-2 cursor-pointer w-[150px]"
+                          className="gap-2 cursor-pointer w-full md:w-[150px]"
                         >
                           <ExternalLink className="w-4 h-4" />
                           Google Play
