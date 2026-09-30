@@ -23,3 +23,5 @@
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.boot-screen{display:none}}
 .portrait-card{width:100%!important;height:auto!important;aspect-ratio:1/1}
 @media(max-width:760px){.portrait-card{width:min(100%,280px)!important;margin:0 auto 24px!important}}
+.icon-about{font-size:18px}.icon-experience{font-size:30px;line-height:1}.icon-projects{font-size:24px}.icon-skills{font-size:17px}.icon-education{font-size:25px}.icon-terminal{font-size:16px}.icon-contact{font-size:22px}.icon-resume{font-size:16px}
+.icon-experience{font-size:0}.icon-experience:before{content:"✦";font-size:24px;line-height:1}
