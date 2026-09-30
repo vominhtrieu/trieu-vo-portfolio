@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <base href="/os/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#06142d">
+  <meta name="description" content="Trieu Vo OS - the interactive portfolio of software engineer Trieu Vo.">
+  <title>Trieu Vo OS — Software Engineer</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2307142f'/%3E%3Cpath d='M16 18h32v8H36v23h-8V26H16z' fill='%236ce5ff'/%3E%3Ccircle cx='47' cy='48' r='5' fill='%23ff7a52'/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/aurora-wallpaper.png" as="image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="boot-screen" id="boot-screen" aria-label="Starting Trieu Vo OS">
+    <div class="boot-mark"><span>T</span><span>V</span></div>
+    <p>Trieu Vo OS</p>
+    <div class="boot-track"><i></i></div>
+  </div>
+
+  <main class="desktop" id="desktop" aria-label="Trieu Vo OS desktop">
+    <div class="wallpaper-glow" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="menu-bar">
+      <div class="menu-left">
+        <button class="brand-mark" data-app="about" aria-label="Open About Me">TV</button>
+        <strong id="active-app-name">Finder</strong>
+        <span>File</span><span>Edit</span><span>View</span><span>Window</span><span>Help</span>
+      </div>
+      <div class="menu-right">
+        <button class="menu-button focus-button" id="spotlight-trigger" aria-label="Search applications"><span>⌕</span></button>
+        <span class="wifi" aria-label="Online">◒</span>
+        <span id="menu-time">Wed Sep 30&nbsp;&nbsp;10:09</span>
+      </div>
+    </header>
+
+    <section class="desktop-intro" aria-label="Welcome">
+      <p class="intro-kicker">TRIEU VO / SOFTWARE ENGINEER</p>
+      <p>Build for scale.<br><span>Engineer for trust.</span></p>
+    </section>
+
+    <section class="desktop-icons" aria-label="Desktop applications">
+      <button class="desktop-icon" data-app="about"><span class="icon-tile icon-about">TV</span><span>About Me</span></button>
+      <button class="desktop-icon" data-app="experience"><span class="icon-tile icon-experience">⌁</span><span>Experience</span></button>
+      <button class="desktop-icon" data-app="projects"><span class="icon-tile icon-projects">◫</span><span>Projects</span></button>
+      <button class="desktop-icon" data-app="skills"><span class="icon-tile icon-skills">&lt;/&gt;</span><span>Skills</span></button>
+      <button class="desktop-icon" data-app="education"><span class="icon-tile icon-education">◎</span><span>Education</span></button>
+      <button class="desktop-icon" data-app="contact"><span class="icon-tile icon-contact">@</span><span>Contact</span></button>
+    </section>
+
+    <section class="window about-window" id="window-about" data-window="about" aria-label="About Me window">
+      <div class="window-bar">
+        <div class="traffic-lights"><button class="close" aria-label="Close About Me"></button><button class="minimize" aria-label="Minimize About Me"></button><button class="maximize" aria-label="Maximize About Me"></button></div>
+        <span class="window-title">About Me</span>
+      </div>
+      <div class="window-body about-content">
+        <div class="portrait-card" aria-hidden="true">
+          <div class="portrait-grid"></div><div class="monogram"><span>T</span><span>V</span></div>
+          <span class="availability"><i></i> HCMC · Vietnam</span>
+        </div>
+        <div>
+          <p class="eyebrow">SOFTWARE ENGINEER / 4 YEARS</p>
+          <h1>I build reliable systems<br><em>that move at scale.</em></h1>
+          <p class="lede">I’m a software engineer focused on dependable web platforms, high-volume payments, and products that make complex work feel simple.</p>
+          <div class="profile-meta"><span><b>4+</b> years building</span><span><b>$1B+</b> processed</span><span><b>8.33</b> university GPA</span></div>
+          <div class="about-actions"><button class="primary-action" data-app="experience">Explore my work</button><a class="secondary-action" href="assets/TrieuVoCV.pdf" target="_blank" rel="noreferrer">Open CV</a></div>
+        </div>
+      </div>
+      <div class="window-status"><span>Trieu Vo OS 1.0</span><span>Designed around systems, scale & clarity</span></div>
+    </section>
+
+    <section class="window experience-window hidden" id="window-experience" data-window="experience" aria-label="Experience window">
+      <div class="window-bar">
+        <div class="traffic-lights"><button class="close" aria-label="Close Experience"></button><button class="minimize" aria-label="Minimize Experience"></button><button class="maximize" aria-label="Maximize Experience"></button></div>
+        <span class="window-title">Experience</span>
+      </div>
+      <div class="window-body app-layout">
+        <aside class="app-sidebar">
+          <p class="sidebar-label">CAREER</p>
+          <button class="sidebar-item active" data-role="all"><i class="dot blue"></i><span>All roles<small>2021 — now</small></span></button>
+          <button class="sidebar-item" data-role="employment"><i class="dot cyan"></i><span>Employment Hero<small>2025 — now</small></span></button>
+          <button class="sidebar-item" data-role="kite"><i class="dot orange"></i><span>Kite Metric<small>2022 — 2024</small></span></button>
+          <button class="sidebar-item" data-role="phenikaa"><i class="dot purple"></i><span>Phenikaa MaaS<small>2021 — 2022</small></span></button>
+        </aside>
+        <div class="scroll-view timeline-view">
+          <header class="app-heading"><div><p class="eyebrow">SELECTED EXPERIENCE</p><h2>Engineering, end to end.</h2></div><span class="count-pill">3 companies</span></header>
+          <article class="role-card" data-company="employment">
+            <div class="role-top"><div><span class="company-mark eh">EH</span><div><h3>Employment Hero</h3><p>Software Engineer</p></div></div><time>Dec 2025 — Now</time></div>
+            <p class="role-summary">Building resilient superannuation systems that process millions of events and millions of dollars every day.</p>
+            <ul class="impact-list"><li>Scaled Hero Clear beyond <strong>$1 billion processed</strong> as of September 2026.</li><li>Designed race-safe webhook handling and state-machine safeguards.</li><li>Built anomaly detection for fraud, inconsistency, and abnormal behavior.</li><li>Collaborated across Vietnam, the UK, Southeast Asia, and Australia.</li></ul>
+            <div class="tech-row"><span>Ruby on Rails</span><span>SQL</span><span>AWS</span><span>DataDog</span><span>Periscope</span></div>
+          </article>
+          <article class="role-card" data-company="kite">
+            <div class="role-top"><div><span class="company-mark km">KM</span><div><h3>Kite Metric</h3><p>Software Engineer</p></div></div><time>Apr 2022 — Jan 2024</time></div>
+            <p class="role-summary">Shipped full-stack features for a job-coaching platform and payment infrastructure for Shopify and standalone stores.</p>
+            <div class="tech-row"><span>Python</span><span>Django</span><span>React</span><span>Next.js</span><span>Node.js</span></div>
+          </article>
+          <article class="role-card" data-company="phenikaa">
+            <div class="role-top"><div><span class="company-mark pm">PM</span><div><h3>Phenikaa MaaS</h3><p>Backend Engineer</p></div></div><time>Jun 2021 — Mar 2022</time></div>
+            <p class="role-summary">Developed APIs, portals, timekeeping, and data workflows for education and bus-management systems.</p>
+            <div class="tech-row"><span>Go</span><span>PostgreSQL</span><span>Node.js</span><span>Angular</span><span>Material UI</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="window projects-window hidden" id="window-projects" data-window="projects" aria-label="Projects window">
+      <div class="window-bar">
+        <div class="traffic-lights"><button class="close" aria-label="Close Projects"></button><button class="minimize" aria-label="Minimize Projects"></button><button class="maximize" aria-label="Maximize Projects"></button></div>
+        <span class="window-title">Projects & Impact</span>
+      </div>
+      <div class="window-body scroll-view project-view">
+        <header class="app-heading project-heading"><div><p class="eyebrow">SYSTEMS I’VE SHAPED</p><h2>Complex underneath.<br>Calm on the surface.</h2></div><div class="signal"><i></i> Production systems</div></header>
+        <div class="project-grid">
+          <article class="project-card hero-project"><div class="project-number">01</div><div class="project-visual"><div class="orbit"><i></i><i></i><span>$1B+</span></div></div><p class="project-type">CLEARING HOUSE SERVICE</p><h3>Hero Clear</h3><p>High-volume superannuation payment infrastructure built for millions of daily events, concurrent webhooks, and consistent transaction states.</p><div class="metric-line"><span><b>Millions</b> of events daily</span><span><b>$1B+</b> processed</span></div></article>
+          <article class="project-card"><div class="project-number">02</div><div class="project-glyph">↻</div><p class="project-type">REVENUE-CRITICAL PLATFORM</p><h3>Superfund Service</h3><p>Led front- and back-end feature delivery, uncovered security and workflow issues, and accelerated embedded UI development by at least 2×.</p><div class="metric-line"><span><b>2×</b> faster previews</span><span><b>Full stack</b> ownership</span></div></article>
+          <article class="project-card"><div class="project-number">03</div><div class="project-glyph warm">◇</div><p class="project-type">COMMERCE</p><h3>Payment Gateway</h3><p>Implemented a payment gateway used across Shopify and standalone stores while contributing to a coaching system for job seekers.</p><div class="tech-row"><span>Python</span><span>React</span><span>Django</span></div></article>
+          <article class="project-card"><div class="project-number">04</div><div class="project-glyph purple">⌘</div><p class="project-type">MOBILITY & EDUCATION</p><h3>MaaS Platforms</h3><p>Built school communication features, timekeeping APIs and portals, plus robust data import and export for bus operations.</p><div class="tech-row"><span>Go</span><span>PostgreSQL</span><span>Node.js</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="window skills-window hidden" id="window-skills" data-window="skills" aria-label="Skills window">
+      <div class="window-bar">
+        <div class="traffic-lights"><button class="close" aria-label="Close Skills"></button><button class="minimize" aria-label="Minimize Skills"></button><button class="maximize" aria-label="Maximize Skills"></button></div>
+        <span class="window-title">Skills</span>
+      </div>
+      <div class="window-body scroll-view skills-view">
+        <header class="app-heading"><div><p class="eyebrow">MY TOOLKIT</p><h2>Built across the stack.</h2></div><span class="count-pill">8 disciplines</span></header>
+        <div class="skills-grid">
+          <article class="skill-panel featured"><div class="skill-icon">{ }</div><div><p>PROGRAMMING</p><h3>JavaScript · Python<br>Ruby · Go</h3></div><div class="code-lines" aria-hidden="true"><i></i><i></i><i></i><i></i></div></article>
+          <article class="skill-panel"><p>BACK-END</p><h3>Rails, Django, NestJS, Node.js, Express</h3><div class="skill-chips"><span>APIs</span><span>Services</span><span>Concurrency</span></div></article>
+          <article class="skill-panel"><p>FRONT-END</p><h3>React, Next.js, HTML, CSS, Material UI, Lodash</h3><div class="mini-browser"><i></i><i></i><i></i><b></b></div></article>
+          <article class="skill-panel"><p>DATA & CLOUD</p><h3>PostgreSQL · SQL · AWS · Docker</h3><div class="data-bars"><i></i><i></i><i></i><i></i><i></i></div></article>
+          <article class="skill-panel"><p>OBSERVABILITY</p><h3>DataDog, Mixpanel, Periscope</h3><svg viewBox="0 0 220 70" role="img" aria-label="Observability signal"><path d="M3 52 C35 51 34 18 62 24 S96 60 119 35 S150 7 170 24 S198 50 217 14" fill="none" stroke="currentColor" stroke-width="3"/></svg></article>
+          <article class="skill-panel"><p>QUALITY & AI</p><h3>RSpec · Jest<br>Claude Code · Cursor · GitHub Copilot</h3></article>
+          <article class="skill-panel language-panel"><p>LANGUAGES</p><div><span>VI</span><b>Vietnamese</b><small>Native</small></div><div><span>EN</span><b>English</b><small>Professional</small></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="window education-window hidden" id="window-education" data-window="education" aria-label="Education and certifications window">
+      <div class="window-bar">
+        <div class="traffic-lights"><button class="close" aria-label="Close Education"></button><button class="minimize" aria-label="Minimize Education"></button><button class="maximize" aria-label="Maximize Education"></button></div>
+        <span class="window-title">Education & Certifications</span>
+      </div>
+      <div class="window-body scroll-view education-view">
+        <div class="campus-card"><div class="campus-badge">HCMUS</div><div><p class="eyebrow">2018 — 2022 / HO CHI MINH CITY</p><h2>Ho Chi Minh University<br>of Science</h2><p>Bachelor Degree in Software Engineering</p></div><div class="gpa-orbit"><span><b>8.33</b>/10</span></div></div>
+        <div class="education-grid">
+          <article><p class="section-label">HONORS</p><div class="honor"><span>03</span><div><h3>HCMUS Olympic 2020</h3><p>Third prize</p></div></div><div class="honor"><span>★</span><div><h3>HCMUS Olympic 2019</h3><p>Consolation prize</p></div></div></article>
+          <article><p class="section-label">CERTIFICATIONS</p><div class="certificate"><time>JUN 2023</time><div><h3>AWS Certified Solutions Architect</h3><p>Associate</p></div></div><div class="certificate"><time>JUN 2022</time><div><h3>Upwork Skill Certification</h3><p>JavaScript Back-end Development</p></div></div><div class="certificate"><time>SEP 2022</time><div><h3>TOEIC</h3><p>780/990 · Speaking & Writing 310/400</p></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="window terminal-window hidden" id="window-terminal" data-window="terminal" aria-label="Terminal window">
+      <div class="window-bar terminal-bar">
+        <div class="traffic-lights"><button class="close" aria-label="Close Terminal"></button><button class="minimize" aria-label="Minimize Terminal"></button><button class="maximize" aria-label="Maximize Terminal"></button></div>
+        <span class="window-title">trieu@portfolio — zsh</span>
+      </div>
+      <div class="window-body terminal-body" id="terminal-output" aria-live="polite">
+        <p class="term-muted">Last login: <span id="term-date"></span> on ttys001</p>
+        <p>Welcome to <b>Trieu Vo OS</b>. Type <span class="term-accent">help</span> to explore.</p>
+        <div class="terminal-history" id="terminal-history"></div>
+        <form class="terminal-form" id="terminal-form"><label for="terminal-input"><span class="prompt-user">trieu@portfolio</span> <span class="prompt-path">~</span> %</label><input id="terminal-input" name="command" autocomplete="off" spellcheck="false" aria-label="Terminal command"></form>
+      </div>
+    </section>
+
+    <section class="window contact-window hidden" id="window-contact" data-window="contact" aria-label="Contact window">
+      <div class="window-bar">
+        <div class="traffic-lights"><button class="close" aria-label="Close Contact"></button><button class="minimize" aria-label="Minimize Contact"></button><button class="maximize" aria-label="Maximize Contact"></button></div>
+        <span class="window-title">Contact</span>
+      </div>
+      <div class="window-body contact-content">
+        <div class="contact-copy"><p class="eyebrow">LET’S BUILD SOMETHING RELIABLE</p><h2>Have a hard problem?<br><em>I like those.</em></h2><p>Open to meaningful engineering conversations, ambitious systems, and teams that care about craft.</p><a class="mail-link" href="mailto:minhtrieuvo600@gmail.com">minhtrieuvo600@gmail.com <span>↗</span></a></div>
+        <div class="contact-links">
+          <a href="mailto:minhtrieuvo600@gmail.com"><span class="contact-symbol">@</span><div><small>EMAIL</small><b>minhtrieuvo600@gmail.com</b></div><i>↗</i></a>
+          <a href="tel:+84396210035"><span class="contact-symbol">☎</span><div><small>PHONE</small><b>(+84) 396-210-035</b></div><i>↗</i></a>
+          <a href="https://github.com/vominhtrieu" target="_blank" rel="noreferrer"><span class="contact-symbol">GH</span><div><small>GITHUB</small><b>vominhtrieu</b></div><i>↗</i></a>
+          <a href="https://www.linkedin.com/in/vominhtrieu" target="_blank" rel="noreferrer"><span class="contact-symbol">in</span><div><small>LINKEDIN</small><b>vominhtrieu</b></div><i>↗</i></a>
+        </div>
+      </div>
+    </section>
+
+    <nav class="dock-wrap" aria-label="Application dock">
+      <div class="dock" id="dock">
+        <button data-app="about" class="dock-item running" aria-label="About Me"><span class="dock-icon icon-about">TV</span><span class="tooltip">About Me</span></button>
+        <button data-app="experience" class="dock-item" aria-label="Experience"><span class="dock-icon icon-experience">⌁</span><span class="tooltip">Experience</span></button>
+        <button data-app="projects" class="dock-item" aria-label="Projects"><span class="dock-icon icon-projects">◫</span><span class="tooltip">Projects</span></button>
+        <button data-app="skills" class="dock-item" aria-label="Skills"><span class="dock-icon icon-skills">&lt;/&gt;</span><span class="tooltip">Skills</span></button>
+        <button data-app="education" class="dock-item" aria-label="Education"><span class="dock-icon icon-education">◎</span><span class="tooltip">Education</span></button>
+        <span class="dock-divider"></span>
+        <button data-app="terminal" class="dock-item" aria-label="Terminal"><span class="dock-icon icon-terminal">&gt;_</span><span class="tooltip">Terminal</span></button>
+        <button data-app="contact" class="dock-item" aria-label="Contact"><span class="dock-icon icon-contact">@</span><span class="tooltip">Contact</span></button>
+        <a href="assets/TrieuVoCV.pdf" target="_blank" rel="noreferrer" class="dock-item" aria-label="Open CV"><span class="dock-icon icon-resume">CV</span><span class="tooltip">Resume PDF</span></a>
+      </div>
+    </nav>
+
+    <div class="spotlight-backdrop hidden" id="spotlight" aria-hidden="true">
+      <div class="spotlight-panel" role="dialog" aria-modal="true" aria-label="Search applications">
+        <label><span>⌕</span><input id="spotlight-input" type="search" placeholder="Search Trieu Vo OS" autocomplete="off"></label>
+        <div class="spotlight-results" id="spotlight-results"></div>
+        <p class="spotlight-hint"><span>↑↓ Navigate</span><span>↵ Open</span><span>esc Close</span></p>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"><span>✓</span><div><b>Welcome to Trieu Vo OS</b><small>Open an app from the dock to explore.</small></div></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
